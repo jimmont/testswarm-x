@@ -1,0 +1,9 @@
+[submodule "pavlov"]
+	path = pavlov
+	url = https://github.com/mmonteleone/pavlov.git
+[submodule "qunit"]
+	path = qunit
+	url = https://github.com/jquery/qunit.git
+[submodule "mockjax"]
+	path = mockjax
+	url = https://github.com/appendto/jquery-mockjax.git
