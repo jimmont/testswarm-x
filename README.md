@@ -1,3 +1,18 @@
+TestSwarm with xtras:
+submodules [QUnit](https://github.com/jquery/qunit), [Pavlov](https://github.com/mmonteleone/pavlov), [jQuery Mockjax](https://github.com/appendto/jquery-mockjax)
+
+do
+
+    git clone git@github.com:jimmont/testswarm-x.git
+    git submodule update --init
+
+or if using THIS project as a submodule:
+
+    git submodule add git@github.com:jimmont/testswarm-x.git path/to/it
+    git submodule update --init
+    cd path/to/it
+    git submodule update --init
+
 TestSwarm - Distributed Continuous Integration for JavaScript
 =================
 
